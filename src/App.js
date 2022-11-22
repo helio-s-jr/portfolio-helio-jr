@@ -1,9 +1,12 @@
 import React from 'react'
+import Rotas from './Services/Routes'
 
 const App = () => {
   return(
-    <h1>Olá Mundo!</h1>
-  )
+    <div>
+      <Rotas/>
+    </div>
+  );
 }
 
 export default App;
