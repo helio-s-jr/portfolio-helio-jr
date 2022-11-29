@@ -6,31 +6,36 @@ import Logo from '../../Assets/Logo/logo.png'
 const Header = () => {
     return(
         <S.ContainerHeader>
-            <figure>
-                <img src={Logo} alt="Ilustração Logo HelioJr Dev" />
-            </figure>
-            <div>
-                <h1>Helio Jr Dev</h1>
-            </div>
-            <nav>
-                <ul>
+            <S.ContainerFigureTitle>
+                <S.FigureHeader>
+                    <S.LogoHeader src={Logo} alt="Ilustração Logo HelioJr Dev" />
+                </S.FigureHeader>
+                <S.BoxTitleHeader>
+                    <S.TitleHeader>Helio Jr Dev</S.TitleHeader>
+                </S.BoxTitleHeader>
+            </S.ContainerFigureTitle>
+            <S.Navigation>
+                <S.ListLinks>
                     <li>
-                        <Link class= 'linkHeader' to='/'>Home</Link>
+                        <Link class='linksHeader' to='/'>Home</Link>
                     </li>
                     <li>
-                        <Link to='/bio'>Bio</Link>
+                        <Link class='linksHeader' to='/bio'>Bio</Link>
                     </li>
                     <li>
-                        <Link to='/projects'>Projetos</Link>
+                        <Link class='linksHeader' to='/projects'>Projetos</Link>
                     </li>
                     <li>
-                        <Link to='/social'>Social</Link>
+                        <Link class='linksHeader' to='/social'>Social</Link>
                     </li>
                     <li>
-                        <Link to='/contact'>Contato</Link>
+                        <Link class='linksHeader' to='/contact'>Contato</Link>
                     </li>
-                </ul>
-            </nav>
+                </S.ListLinks>
+                {/* <S.BoxButton>
+                    <S.ButtonMenu/>
+                </S.BoxButton> */}
+            </S.Navigation>
         </S.ContainerHeader>
     );
 }
