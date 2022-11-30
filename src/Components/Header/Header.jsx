@@ -32,9 +32,9 @@ const Header = () => {
                         <Link class='linksHeader' to='/contact'>Contato</Link>
                     </li>
                 </S.ListLinks>
-                {/* <S.BoxButton>
+                <S.BoxButton>
                     <S.ButtonMenu/>
-                </S.BoxButton> */}
+                </S.BoxButton>
             </S.Navigation>
         </S.ContainerHeader>
     );

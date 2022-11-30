@@ -32,16 +32,18 @@ export const FigureHeader = style.figure`
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: grey;
+    background-color: none;
 `
 /*Logo da Header*/
 export const LogoHeader = style.img`
 
-    width: 5rem;
+    width: 6rem;
     display: flex;
     align-items: center;
+    border: 1.5px solid black;
+    border-radius: 80px;
     justify-content: center;
-    background-color: none;
+    background-color: #5D178F;
 `
 
 
@@ -89,7 +91,7 @@ export const ListLinks = style.ul`
 
 
 /*caixa do botão header*/
-/* export const BoxButton = style.div`
+export const BoxButton = style.div`
 
     width: 100%;
     display: none;
@@ -97,12 +99,12 @@ export const ListLinks = style.ul`
     align-items: center;
     justify-content: center;
     background-color: purple;
-` */
+`
 /*botão de menu*/
-/* export const ButtonMenu = style.button`
+export const ButtonMenu = style.button`
 
     width: 50%;
     display: none;
     text-align: center;
     align-items: center;
-` */
+`
