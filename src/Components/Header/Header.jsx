@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import * as S from './Style'
-import Logo from '../../Assets/Logo/logo.png'
+import Logo from '../../Assets/Logo/Logo500.png'
 
 const Header = () => {
     return(
@@ -11,7 +11,7 @@ const Header = () => {
                     <S.LogoHeader src={Logo} alt="Ilustração Logo HelioJr Dev" />
                 </S.FigureHeader>
                 <S.BoxTitleHeader>
-                    <S.TitleHeader>Helio Jr Dev</S.TitleHeader>
+                    <S.TitleHeader>Dev Helio Jr</S.TitleHeader>
                 </S.BoxTitleHeader>
             </S.ContainerFigureTitle>
             <S.Navigation>

@@ -37,14 +37,15 @@ export const FigureHeader = style.figure`
 /*Logo da Header*/
 export const LogoHeader = style.img`
 
-    width: 6rem;
+    width: 5.3rem;
     display: flex;
     align-items: center;
     border: 1.5px solid black;
     border-radius: 80px;
     justify-content: center;
-    background-color: #5D178F;
+    background-color: #420076;
 `
+/*Roxo de fundo da logo #420076  Laranja #FFA132*/
 
 
 /*caixa do título*/
@@ -66,7 +67,7 @@ export const TitleHeader = style.h1`
     text-align: center;
     align-items: center;
     justify-content: center;
-    font-size: 13pt;
+    font-size: 20pt;
 
 `
 
@@ -87,6 +88,12 @@ export const ListLinks = style.ul`
     text-align: center;
     align-items: center;
     justify-content: space-evenly;
+
+
+    li, .linksHeader{
+        list-style: none;
+        text-decoration: none;
+    }
 `
 
 
